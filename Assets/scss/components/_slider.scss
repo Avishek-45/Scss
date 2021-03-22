@@ -1,0 +1,86 @@
+.carousel{
+    background-color: $blue;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+
+    .wrapper{
+        padding: 60px 0px 0px 50px;
+    }
+
+    .carousel_left{
+        .title{
+            font-size: 72px;
+            line-height: 90px;
+            color: $white;
+            padding-bottom: 20px;
+            
+        }
+        .text{
+            color: $white;
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 20px;
+            
+        }
+        .g,.d{
+            background-color: $white;
+            border-color: $white;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 700;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            user-select: none;
+            border: 2px solid $white;
+            padding: 0 32px;
+            font-size: 16px;
+            line-height: 46px;
+            color: #0067f4;
+            cursor: pointer;
+            z-index: 5;
+            transition: all .4s ease-out 0s;
+            position: relative;
+            text-transform: uppercase;
+        }
+        .g:hover{
+            background-color: $blue;
+            color:$white;
+        }
+        .d{
+            background-color: $blue !important;
+            color:$white !important
+        }
+        .d:hover{
+            background-color: $white !important;
+            color: $blue !important;
+        }
+    }
+}
+
+@media (max-width:1160px){
+    .title{
+        font-size: 55px;
+        line-height: 75px;
+        font-weight: 600;
+    }
+    .carousel{
+        width: 100%;
+        height:600px;
+    }
+    .carousel_right{
+        display:none;
+    }
+    
+}
+@media (max-width: 968px) {
+    .carousel{
+        width: 100%;
+        height:600px;
+    }
+    
+    .carousel_left{
+        text-align: center;
+    }
+}

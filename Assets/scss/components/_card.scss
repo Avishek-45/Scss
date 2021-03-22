@@ -1,0 +1,147 @@
+.background{
+    background-color: $grey;
+    padding:70px 20px;
+}
+.services,.featured_work div,.price_plan .plans,.contact_p .contact{
+    text-align: center;
+    padding-bottom: 30px;
+
+    h3{
+        font-size: 44px;
+        font-weight: 600;
+        color: $black;
+        line-height: 55px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #6c6c6c;
+        margin-top: 24px;
+    }
+}
+
+.card{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    .child{
+        display: block;
+        padding:55px 25px;
+        border-radius: 20px;
+        margin: 0 10px;
+    
+        .button a{
+            color: #0067f4;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 29px;
+            margin-bottom: 20px;
+        }
+        .content{
+            padding-bottom: 20px;
+        }
+    }
+}
+ 
+
+.feature{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+    .title a{
+        font-size: 36px;
+        line-height: 45px;
+        color: #121212;
+        transition: all .3s ease-out 0s;
+        font-weight: 400;
+    }
+    .title a:hover{
+        color: #0067f4;
+
+    }
+
+    .icon img{
+        height:60px;
+        width:60px;
+        padding:13px 10px 0px 0px;
+    
+    }
+}
+.price_plan{
+    padding-bottom: 50px;
+}
+.pricing_card{
+    width:80vw;
+    height:auto;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .vehicles{
+        height:auto;
+        flex:1 200px;
+        margin:20px;
+        text-align: center!important;
+        background: linear-gradient(#2bdbdc 0%,#0067f4 100%); 
+        padding: 24px 20px 38px;
+        border-radius: 8px;
+
+        img{
+            width: 190px;
+            max-width: 100%;
+            vertical-align: middle;
+            border-style: none;
+        }
+        .title,.tag{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            color: #fff;
+            position: relative;
+            margin-top: 24px;
+        }
+        .text{
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+            margin-top: 16px;
+            padding-bottom: 10px;
+        }
+        .button{
+            background-color: #fff;
+            border-color: #fff;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 700;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            border: 2px solid transparent;
+            padding: 0px 32px;
+            font-size: 16px;
+            line-height: 46px;
+            color: #0067f4;
+            cursor: pointer;
+        }
+    }
+}
+
+.contact_p{
+     .mapouter {
+        
+
+        .gmap_canvas{
+            display: block;
+            margin:auto;
+            height:auto;
+            width:150%;
+
+        }
+    }
+}
+ 
+ 
